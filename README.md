@@ -17,7 +17,7 @@
 |완전 탐색|[피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|2022.12.10|
 |그리디|[조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)|2022.12.11|
 |그리디|[섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)|2022.12.12|
-|그리디|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|2022.12.13|
+|구현(카카오)|[](https://school.programmers.co.kr/learn/courses/30/lessons/17678)|2022.12.13|
 |그리디|[단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884)|2022.12.14|
 |그리디|[큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)|2022.12.15|
 |힙|[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)|2022.12.16|
