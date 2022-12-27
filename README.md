@@ -12,7 +12,7 @@
 ## 진도표
 | 분류 | 문제 | 날짜 | 시연 | 선의 |
 |:---:|:---:|:---:|:---:|:---:|
-|해시|[베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|2022.11.29|
+|해시|[베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|2022.11.29| |❌|
 |BFS/DFS|[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|2022.11.30|
 |BFS/DFS|[게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|2022.12.01|
 |BFS/DFS|[단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)|2022.12.02|
@@ -22,7 +22,7 @@
 |그래프|[가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)|2022.12.06|
 |그래프|[순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)|2022.12.07|
 |완전 탐색|[소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)|2022.12.08|
-|완전 탐색|[카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|2022.12.09|
+|완전 탐색|[카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|2022.12.09| |⭕️|
 |완전 탐색|[피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|2022.12.10|
 |그리디|[조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)|2022.12.11|
 |그리디|[섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)|2022.12.12|
