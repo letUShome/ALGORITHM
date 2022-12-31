@@ -12,7 +12,7 @@
 ## 진도표
 | 분류 | 문제 | 날짜 | 시연 | 선의 |
 |:---:|:---:|:---:|:---:|:---:|
-|해시|[베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|2022.11.29| |⭕️|
+|해시|[베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|2022.11.29|⭕️|⭕️|
 |BFS/DFS|[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|2022.11.30| |⭕️|
 |BFS/DFS|[게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|2022.12.01|
 |BFS/DFS|[단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)|2022.12.02|
