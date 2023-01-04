@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b27413f-c4cb-49cd-b4be-34dd8befa9c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Siyeon/P1844.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Siyeon/P43163.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P43162.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/P43162.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.P43163">
     <configuration name="P1844" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,8 +68,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P43163" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ALGORITHM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Siyeon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Siyeon/P43163.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P43163" />
         <item itemvalue="Python.P1844" />
       </list>
     </recent_temporary>
@@ -86,7 +108,8 @@
       <workItem from="1672504667599" duration="54000" />
       <workItem from="1672579639809" duration="717000" />
       <workItem from="1672665733363" duration="2138000" />
-      <workItem from="1672670058744" duration="2362000" />
+      <workItem from="1672670058744" duration="2586000" />
+      <workItem from="1672825247096" duration="2856000" />
     </task>
     <servers />
   </component>
@@ -94,6 +117,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ALGORITHM$P43163.coverage" NAME="P43163 Coverage Results" MODIFIED="1672853101320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Siyeon" />
     <SUITE FILE_PATH="coverage/ALGORITHM$P1844.coverage" NAME="P1844 Coverage Results" MODIFIED="1672671789107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Siyeon" />
   </component>
 </project>
