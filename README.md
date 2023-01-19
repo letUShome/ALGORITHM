@@ -19,7 +19,7 @@
 |DP|[정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)|⭕️|⭕️|
 |DP|[도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897)|⭕️| |
 |DP|[등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)|⭕️| |
-|그래프|[가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)|
+|그래프|[가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)|⭕️| |
 |그래프|[순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)|
 |완전 탐색|[소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)| |⭕️|
 |완전 탐색|[카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|⭕️|⭕️|
