@@ -31,7 +31,7 @@
 |그리디|[큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)|
 |힙|[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)|
 |힙|[디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)|
-|힙|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
+|힙|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|⭕️| |
 |그래프|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 
 ## 중간점검
