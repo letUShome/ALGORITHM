@@ -36,3 +36,25 @@
 
 ## 중간점검
 ### [1차 목표(2022. 12. 20)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1&partIds=31236)
+
+## 2차 진도표
+| 분류 | 문제 | 시연 | 선의 |
+|:---:|:---:|:---:|:---:|
+|해시|[전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)|||
+|해시|[위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578)|||
+|BFS/DFS|[타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)|||
+|BFS/DFS|[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|||
+|BFS/DFS|[아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)|| |
+|BFS/DFS|[여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)|| |
+|BFS/DFS|[퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)|| |
+|DP|[N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)|||
+|DP|[사칙연산](https://school.programmers.co.kr/learn/courses/30/lessons/1843)|| |
+|완전 탐색|[전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)| ||
+|완전 탐색|[모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512)|||
+|그리디|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
+|이분탐색|[입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
+|이분탐색|[징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|
+|문자열|[괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)|
+|문자열|[문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)|
+|문자열|[땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)|
+|문자열|[신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|
