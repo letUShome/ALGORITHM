@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b27413f-c4cb-49cd-b4be-34dd8befa9c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Siyeon/B1260.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Siyeon/B1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/B1260.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +195,7 @@
       <workItem from="1676011701543" duration="5675000" />
       <workItem from="1676075927074" duration="139000" />
       <workItem from="1676211210431" duration="759000" />
-      <workItem from="1676387744963" duration="8739000" />
+      <workItem from="1676387744963" duration="8937000" />
     </task>
     <servers />
   </component>

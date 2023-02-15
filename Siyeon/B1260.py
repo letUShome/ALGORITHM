@@ -1,11 +1,5 @@
 import sys
 from queue import Queue
-input = sys.stdin.readline
-
-
-def sorting(data, rev):
-		for list in data:
-        list.sort(reverse=rev)
 
 
 def dfs(n, v, data):
@@ -44,14 +38,17 @@ def bfs(n, v, data):
 
 
 def solution(n, v, data):
-    sorting(data, True)
+    for list in data:
+        list.sort(reverse=True)
     dfs(n, v, data)
     print()
-    sorting(data, False)
+    for list in data:
+        list.sort()
     bfs(n, v, data)
 
 
 if __name__ == '__main__':
+    input = sys.stdin.readline
     n, e, v = map(int, input().split())
     data = [[] for _ in range(n+1)]
 
