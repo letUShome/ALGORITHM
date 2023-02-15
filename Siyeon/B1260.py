@@ -1,60 +1,59 @@
 import sys
-from queue import Queue
+from collections import deque
+
+input = sys.stdin.readline
 
 
-def dfs(n, v, data):
-    visit = [False for _ in range(n + 1)]
-    stack = [v]
-
-    while stack:
-        now = stack.pop()
-        if not visit[now]:
-            print(now, end=" ")
-            visit[now] = True
-        else:
-            continue
-
-        for node in data[now]:
-            if visit[node] is False:
-                stack.append(node)
+def dfs(v, graph, visit):
+    if not visit[v]:
+        visit[v] = True
+        print(v, end=" ")
+        for node in graph[v]:
+            if not visit[node]:
+                dfs(node, graph, visit)
+    else:
+        return
 
 
-def bfs(n, v, data):
-    visit = [False for _ in range(n+1)]
-    queue = Queue()
-    queue.put(v)
+def bfs(v, graph, visit):
+    queue = deque()
+    queue.append(v)
 
     while queue:
-        now = queue.get()
+        now = queue.popleft()
         if not visit[now]:
             print(now, end=" ")
             visit[now] = True
         else:
             continue
 
-        for node in data[now]:
+        for node in graph[now]:
             if not visit[node]:
-                queue.put(node)
+                queue.append(node)
 
 
-def solution(n, v, data):
-    for list in data:
-        list.sort(reverse=True)
-    dfs(n, v, data)
+def solution(n, v, graph):
+    visit = [False for _ in range(n + 1)]
+    dfs(v, graph, visit)
     print()
-    for list in data:
-        list.sort()
-    bfs(n, v, data)
+    visit = [False for _ in range(n + 1)]
+    bfs(v, graph, visit)
 
 
 if __name__ == '__main__':
-    input = sys.stdin.readline
     n, e, v = map(int, input().split())
-    data = [[] for _ in range(n+1)]
+    graph = {}
 
     for i in range(e):
         v1, v2 = map(int, input().split())
-        data[v1].append(v2)
-        data[v2].append(v1)
+        if v1 not in graph:
+            graph[v1] = list()
+        if v2 not in graph:
+            graph[v2] = list()
+        graph[v1].append(v2)
+        graph[v2].append(v1)
 
-    solution(n, v, data)
+    for key in graph:
+        graph[key].sort()
+
+    solution(n, v, graph)
