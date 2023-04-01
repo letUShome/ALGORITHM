@@ -1,80 +1,77 @@
 """
-
+table에서 row의 위치가 상대적임
+즉, 이웃한 애들에 따라서 상대적으로 위치를 가짐
+여기서 linked list를 떠올렸어야함
+거기서 효율성까지 따져서 검색시간을 줄이기 위해 dict 자료구조를 사용한것
 """
 import sys
 from heapq import heappop, heappush, heapify
+
 input = sys.stdin.readline
 
-table_idx = {}
-table_pri = {}
+table = {}
 deleted = []
 
 
 def solution(n, k, cmd):
     global table, deleted
-    # key-table속 순서, value-실제 idx
-    for i in range(n):
-        table_idx[i] = i
-        table_pri[i] = i
+    answer = ['O']*n
+    cur = k
+    table = {i: [i - 1, i + 1] for i in range(n)}
 
-    selected = k
+    # key-idx, [이전, 이후]
+    table[0] = [None, 1]
+    table[n-1] = [n-2, None]
 
     for c in cmd:
-        if "D" in c:
-            d, x = map(str, c.split())
-            selected += int(x)
+        if c == "C":
+            answer[cur] = "X"
+            prev, next = table[cur]
+            deleted.append([prev, cur, next])
 
-        elif "U" in c:
-            u, x = map(str, c.split())
-            selected -= int(x)
+            # 지운값이 마지막이었을 경우
+            if next == None:
+                cur = table[cur][0]
+            else:
+                cur = table[cur][1]
 
-        elif "C" == c:
-            priority = table_idx[selected]
-            last_idx = len(table_idx) - 1
+            # 이웃값들의 이웃정보 수정
+            if prev == None:
+                table[next][0] = None
+            elif next == None:
+                table[prev][1] = None
+            else:
+                table[prev][1] = next
+                table[next][0] = prev
 
-            for i in range(selected, last_idx):
-                table_idx[i] = table_idx[i + 1]
-                table_pri[table_idx[i]] = i
+        elif c == "Z":
+            # 이런식으로 복구하면 만약 지워진 애의 prev, next도 지워졌으면
+            # 위치를 못찾는거 아닌가 했는데 생각해보니까 stack형식으로 복구함
+            # 즉 now가 꺼내질 시점에는 혹여나 prev, next가 지워졌었더라도
+            # 복구되어있는 상태라는거임 충격이네
+            prev, now, next = deleted.pop()
+            answer[now] = "O"
 
-            if selected == last_idx:
-                selected -= 1
-            del table_pri[priority]
-            del table_idx[last_idx]
-            deleted.append(priority)
+            if prev == None:
+                table[next][0] = now
+            elif next == None:
+                table[prev][1] = now
+            else:
+                table[next][0] = now
+                table[prev][1] = now
 
         else:
-            priority = deleted.pop()
-            idx = 0
-            last_idx = len(table_idx) - 1
-            for i in range(priority+1, n):
-                if i in table_pri:
-                    idx = table_pri[i]
-                    break
+            direct, x = c.split(' ')
+            x = int(x)
 
-            if idx != 0:
-                for i in reversed(range(idx+1, last_idx+2)):
-                    table_idx[i] = table_idx[i - 1]
-                    table_pri[table_idx[i]] = i
-
-                table_idx[idx] = priority
-                table_pri[priority] = idx
-
+            if direct == "D":
+                for _ in range(x):
+                    cur = table[cur][1]
             else:
-                for i in reversed(range(priority)):
-                    if i in table_pri:
-                        idx = table_pri[i]
-                        break
+                for _ in range(x):
+                    cur = table[cur][0]
 
-                table_idx[idx+1] = priority
-                table_pri[priority] = idx+1
-
-
-            if selected >= idx:
-                selected += 1
-
-
-    return table_pri
-
+    return ''.join(answer)
 
 if __name__ == "__main__":
     n, k = 8, 2
