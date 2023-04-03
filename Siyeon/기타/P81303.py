@@ -5,8 +5,6 @@ table에서 row의 위치가 상대적임
 거기서 효율성까지 따져서 검색시간을 줄이기 위해 dict 자료구조를 사용한것
 """
 import sys
-from heapq import heappop, heappush, heapify
-
 input = sys.stdin.readline
 
 table = {}
