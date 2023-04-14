@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1495d1-6014-47f8-8059-304f2c03f3ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Siyeon/P92344.py" afterDir="false" />
+    <list default="true" id="93ea3d51-4849-4a74-85d9-889830dfc88d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Siyeon/DP/P11727.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Siyeon/DP/P9084.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/B1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/B1260.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/B2178.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/B2178.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/B2606.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/B2606.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/B2667.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/B2667.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/B3085.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/완전탐색/B3085.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P150368.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/완전탐색/P150368.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P15312.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/DP/P15312.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P1844.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/P1844.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42579.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/해시/P42579.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42579.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/해시/P42579.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42626.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/우선순위큐_힙/P42626.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42627.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/우선순위큐_힙/P42627.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42628.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/우선순위큐_힙/P42628.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42842.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/완전탐색/P42842.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P42898.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/DP/P42898.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P43105.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/DP/P43105.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P43162.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/P43162.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P43163.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/P43163.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P49189.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/BFS&amp;DFS/P49189.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P67259.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/DP/P67259.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Siyeon/P81303.py" beforeDir="false" afterPath="$PROJECT_DIR$/Siyeon/기타/P81303.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ProgramData/Projects/ALGORITHM",
+    "last_opened_file_path": "D:/Projects/ALGORITHM",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -89,7 +69,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db1495d1-6014-47f8-8059-304f2c03f3ea" name="Changes" comment="" />
+      <changelist id="93ea3d51-4849-4a74-85d9-889830dfc88d" name="Changes" comment="" />
       <created>1680411349413</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -98,6 +78,7 @@
       <workItem from="1680415133175" duration="130000" />
       <workItem from="1680415310773" duration="32000" />
       <workItem from="1680415355320" duration="792000" />
+      <workItem from="1681459028525" duration="4687000" />
     </task>
     <servers />
   </component>
@@ -114,5 +95,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Siyeon/DP/P9084.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dp" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ALGORITHM$P11727.coverage" NAME="P11727 Coverage Results" MODIFIED="1681459424946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Siyeon/DP" />
+    <SUITE FILE_PATH="coverage/ALGORITHM$9084.coverage" NAME="9084 Coverage Results" MODIFIED="1681471904437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Siyeon/DP" />
   </component>
 </project>
